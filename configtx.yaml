@@ -176,7 +176,7 @@ Profiles:
             SampleConsortium:
                 Organizations:
                     - *Org1
-    TwoOrgsChannel:
+    OneOrgsChannel:
         Consortium: SampleConsortium
         Application:
             <<: *ApplicationDefaults
