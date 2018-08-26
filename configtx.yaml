@@ -163,7 +163,7 @@ Orderer: &OrdererDefaults
 ################################################################################
 Profiles:
 
-    TwoOrgsOrdererGenesis:
+    OneOrgsOrdererGenesis:
         Capabilities:
             <<: *ChannelCapabilities
         Orderer:
