@@ -1,11 +1,11 @@
 OrdererOrgs:
   - Name: Orderer
-    Domain: acme.com
+    Domain: example.com
     Specs:
       - Hostname: orderer
 PeerOrgs:
   - Name: Org1
-    Domain: org1.acme.com
+    Domain: org1.example.com
     Template:
       Count: 1
     Users:
