@@ -26,7 +26,7 @@ services:
     # ---CHANGED--- the path is different to reflect our company's domain
     - ../crypto-config/ordererOrganizations/acme.com/orderers/orderer.example.com/msp:/var/hyperledger/orderer/msp
     # ---CHANGED--- the path is different to reflect our company's domain
-    - ../crypto-config/ordererOrganizations/acme.com/orderers/orderer.example.com/tls/:/var/hyperledger/orderer/tls
+    - ../crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/:/var/hyperledger/orderer/tls
     ports:
       - 7050:7050
 
